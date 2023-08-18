@@ -1,0 +1,45 @@
+{
+    "hidefiles.configurationType": "local",
+    "hidefiles.globalConfig": {
+        "profiles": [
+            {
+                "name": "Default",
+                "detail": "",
+                "description": "Test",
+                "hidden": [
+                    ".vscode/"
+                ]
+            },
+            {
+                "name": "Strict",
+                "detail": "Hide everything not immediately required",
+                "hidden": [
+                    "$Default"
+                ]
+            },
+            {
+                "hidden": [
+                    "*.class",
+                    "*.ctxt",
+                    "out/"
+
+                ],
+                "name": "BlueJ",
+                "description": "",
+                "detail": "",
+                "peek": []
+            }
+        ]
+    },
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "*.class": true,
+        "*.ctxt": true,
+        "out/": true
+    },
+    "hidefiles.selectedProfile": "BlueJ"
+}
